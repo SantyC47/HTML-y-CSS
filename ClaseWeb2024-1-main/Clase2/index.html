@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clase 2</title>
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main >
+    <section class="izq">
+      <section class="profile">
+        <section>
+            <img src="https://sicau.pascualbravo.edu.co/SICAU/Sources/fotos/1007114332.jpg" alt="Jessica Randall - profile photo" class="profile__avatar">
+            <h1 class="profile__name"><p>Santiago Cataño</p></h1>
+            <p class="profile__city">Medellin, Colombia</p>
+            <p class="profile__description">"Front-end developer and avid reader."</p>
+        </section>
+        <section class="btns">
+            <button id="miBoton" class="profile__btn"><p>GitHub</p></button>
+            <button class="profile__btn">Frontend Mentor</button>
+            <button class="profile__btn">LinkedIn</button>
+            <button class="profile__btn">Twitter</button>
+            <button class="profile__btn">Instagram</button>
+  
+            <script>
+              var boton = document.getElementById("miBoton");
+              boton.addEventListener("click", function() {
+                window.open("https://github.com/SantyC47", "_blank")
+              });
+          </script>
+        </section>
+      </section>
+    </section>
+    
+  </main>
+</body>
+
+</html>
